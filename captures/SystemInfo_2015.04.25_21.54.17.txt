@@ -1,0 +1,99 @@
+Applications Graphics Acceleration Info:
+Uptime: 199653917 Realtime: 656308668
+
+** Graphics info for pid 7576 [tvz.trip.tvzmc2.blood4you] **
+
+Recent DisplayList operations
+              DrawText
+              RestoreToCount
+            DrawDisplayList
+            RestoreToCount
+          DrawDisplayList
+          DrawPatch
+        DrawDisplayList
+          DrawRect
+              Save
+              ClipRect
+              DrawText
+              RestoreToCount
+            DrawDisplayList
+          DrawDisplayList
+        DrawDisplayList
+        DrawPatch
+      DrawDisplayList
+    DrawDisplayList
+    RestoreToCount
+  DrawDisplayList
+  DrawRect
+    Save
+    ClipRect
+            DrawRect
+            Save
+            ClipRect
+              DrawPatch
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+            DrawDisplayList
+            RestoreToCount
+          DrawDisplayList
+          DrawPatch
+        DrawDisplayList
+          DrawRect
+              Save
+              ClipRect
+              DrawText
+              RestoreToCount
+            DrawDisplayList
+          DrawDisplayList
+        DrawDisplayList
+        DrawPatch
+      DrawDisplayList
+    DrawDisplayList
+    RestoreToCount
+  DrawDisplayList
+
+(ms)                     total       count     average         max
+DrawDisplayList         152.94          36        4.25       24.20
+DrawText                 17.03           8        2.13        8.74
+DrawRect                 10.50          12        0.88        9.12
+DrawPatch                 7.91          12        0.66        7.12
+RestoreToCount            0.11          16        0.01        0.05
+Save                      0.08          16        0.00        0.04
+ClipRect                  0.01          16        0.00        0.00
+Translate                 0.01           4        0.00        0.00
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache            17408 / 41943040
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    0 /       16
+  PatchCache                  2 /      512
+Total memory usage:
+  279552 bytes, 0.27 MB
+
+Profile data in ms:
+
+	tvz.trip.tvzmc2.blood4you/tvz.trip.tvzmc2.blood4you.MainActivity/android.view.ViewRootImpl@41b4edb8
+View hierarchy:
+
+  tvz.trip.tvzmc2.blood4you/tvz.trip.tvzmc2.blood4you.MainActivity/android.view.ViewRootImpl@41b4edb8
+  13 views, 0,92 kB of display lists, 4 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        13
+Total DisplayList:  0,92 kB
+
